@@ -53,7 +53,7 @@ fi
 
 echo -e "\e[1;36mDevlite:${PROJECT_NAME} initialization successful.\e[0m"
 echo -e ""
-echo -e "   -- note: If this is the first run; it may take 20+ minutes to build"
+echo -e "   -- note: If this is the first run; it may take several minutes to build"
 echo -e "            this container. Subsequent runs should only take seconds."
 echo -e ""
 

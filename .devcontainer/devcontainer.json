@@ -1,5 +1,5 @@
 {
-    "name": "devlite",
+    "name": "devlite_c",
     "initializeCommand": "/bin/bash .devcontainer/initializeCommand.sh",
     "postCreateCommand": "/bin/bash .devcontainer/postCreateCommand.sh",
     "postStartCommand": "/bin/bash .devcontainer/postStartCommand.sh",
@@ -8,7 +8,7 @@
     "updateContentCommand": "/bin/bash .devcontainer/updateContentCommand.sh",
     "dockerComposeFile": "../docker-compose.yml",
     "service": "ubuntu",
-    "workspaceFolder": "/READ THE readme.md FILE IN THE ROOT",
+    "workspaceFolder": "/devlite_c",
     "containerEnv": {
         "DEVLITE_PROJECT_NAME": "${localWorkspaceFolderBasename}",
         "DEVLITE_LOCAL_WORKSPACE_FOLDER": "${localWorkspaceFolder}",
@@ -28,10 +28,9 @@
                 "terminal.integrated.defaultProfile.linux": "bash"
             },
             "extensions": [
-                "ms-azuretools.vscode-docker",
-                "cweijan.vscode-database-client2",
-                "mikestead.dotenv",
-                "felixfbecker.php-debug"
+                "ms-vscode.cpptools",
+                "ms-vscode.cmake-tools",
+                "ms-vscode.theme-cpp"
             ]
         }
     },
